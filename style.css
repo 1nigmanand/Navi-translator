@@ -1,25 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=M+PLUS+1+Code&family=Montserrat&family=Roboto+Mono&display=swap');
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+
+}
+.display{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
 }
 
-textarea{
-    background-color: yellow;
-    width: 90%;
-    display: block;
-    margin: auto;
+#inputTxt{
+    background-color: wheat;
+    border: 2px solid ;
     height: 13vh;
-    border: 5px solid  rgb(239, 4, 4);
     text-align: center;
-    border-top-right-radius: 6rem;
-    border-top-left-radius: 6rem;
-
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
 }
 .nav{
-    background-color: rgb(85, 134, 199);
-    padding: 1rem;
-    margin: 0 0 2rem 0;
+    margin-top: 2rem;
+    background-color:navy;
+    color: whitesmoke;
+    padding: 10px;
+    width: 20%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 1rem;
+    font-size: large;
+
 }
 .div{
     text-align: center;
@@ -27,23 +41,20 @@ textarea{
     margin: 1rem 0 0 1rem;
 }
 #output{
-    background-color: yellow;
-    border: 5px solid rgb(20, 230, 27);
+    background-color: wheat;
+    border: 2px solid ;
     height: 13vh;
     text-align: center;
     margin: auto;
-    display: block;
-    width: 90%;
-    font-size: x-large;
+    width: 50%;
     font-weight: bold;
-    border-bottom-right-radius: 6rem;
-    border-bottom-left-radius: 6rem;
 }
 .footer{
     text-align: center;
     margin: auto;
 }
 button{
-    background-color: green;
-    height: 4vh;
+    background-color: aqua;
+    padding: 1rem;
+    border-radius: 1rem;
 }
